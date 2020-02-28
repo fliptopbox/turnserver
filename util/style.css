@@ -1,0 +1,33 @@
+#ui {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 0;
+}
+
+.sock {
+    flex: auto;
+    border: 1px solid black;
+    justify-content: flex-start;
+    margin: 0.5em;
+    padding: 0 0 2em 0;
+}
+
+.sock div {
+    padding: 0 1em;
+    display: block;
+    flex: 1 0 auto;
+    width: 100%;
+    /*     background: red; */
+}
+
+.sock input {
+    margin: auto auto 10px auto;
+    padding: 10px 0;
+    display: block;
+    width: 96%;
+    border: none;
+    padding: 2%;
+    background: #efefef;
+}
